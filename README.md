@@ -21,19 +21,7 @@
 ],
 ```
 
-4. You might need to take ownership of the CSS/JS files you made or run VS Code with admin privileges on certain operating system:
-
-```
-Mac and Linux users
-The extension would NOT work if Visual Studio Code cannot modify itself. The cases include:
-
-Code files being read-only, like on a read-only file system or,
-Code is not started with the permissions to modify itself.
-You need to claim ownership on Visual Studio Code's installation directory, by running this command:
-
-Note: Replace /usr/share/code where your VS Code is installed.
-sudo chown -R your-user-name /usr/share/code
-```
+4. You might need to take ownership of the CSS/JS files you made or run VS Code with admin privileges on certain operating system
 
 5. Enable "Custom CSS and JS Loader" from VS Code's command dialog.
 
