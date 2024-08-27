@@ -1,0 +1,83 @@
+.letterpress {
+	display: none;
+}
+
+/* Code comment style */
+.mtk3 {
+	color: #008c7d !important;
+}
+
+/* Command Palette */
+.quick-input-widget {
+	transform: translateY(-50%) !important;
+	top: 50% !important;
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+	padding: 10px 10px 18px 10px !important;
+	background-image: linear-gradient(
+		--vscode-editorGhostText-foreground 0%,
+		--vscode-editorGhostText-foreground 100%
+	) !important;
+	backdrop-filter: blur(3px) !important;
+	border-radius: 10px !important;
+}
+
+/* Remove background for lists */
+.monaco-list-rows {
+	background: transparent !important;
+}
+
+/* List hover */
+.monaco-list-row:hover {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.notifications-toasts .monaco-list-row:hover {
+	background: none !important;
+}
+
+/* Command palette text input */
+.quick-input-filter .monaco-inputbox {
+	border-radius: 5px !important;
+	padding: 8px !important;
+	border: none !important;
+	background-color: --vscode-editorGhostText-foreground !important;
+	font-size: 14px !important;
+	margin-bottom: 16px !important;
+}
+element.style {
+	padding: 30px !important;
+}
+
+/* Project title's style at the top. */
+.monaco-workbench
+	.part.titlebar
+	> .titlebar-container
+	> .titlebar-center
+	> .window-title
+	> .command-center
+	.action-item.command-center-center {
+	background: transparent !important;
+}
+
+/* Search Label */
+.search-label {
+	font-size: 13px !important;
+}
+
+/* Search icon */
+.search-icon {
+	display: none !important;
+}
+
+.codicon-search::before {
+	display: none !important;
+}
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+	display: none !important;
+}
+
+.titlebar-right > * {
+	display: none !important;
+}

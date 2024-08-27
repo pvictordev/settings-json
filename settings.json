@@ -1,0 +1,38 @@
+{
+	"files.autoSave": "onWindowChange",
+	"editor.cursorBlinking": "solid",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.hover.enabled": true,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.wordWrap": "on",
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"php.validate.executablePath": "D:/Software/Tools/laragon/bin/php/php-8.2.19-Win32-vs16-x64/php.exe",
+	"security.workspace.trust.untrustedFiles": "open",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"explorer.confirmDelete": false,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.codeActionsOnSave": {},
+	"editor.stickyScroll.enabled": false,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.settings.applyToAllProfiles": [],
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"workbench.colorTheme": "Tokyo Night",
+	"workbench.productIconTheme": "fluent-icons",
+
+	// custom styles to modify vscode UI
+	"vscode_custom_css.imports": [
+		"file:///C:/Users/pvict/vscode/style.css",
+		"file:///C:/Users/pvict/vscode/script.js"
+	],
+
+	"symbols.hidesExplorerArrows": false,
+	"zenMode.centerLayout": false,
+	"workbench.iconTheme": "charmed-icons"
+}
