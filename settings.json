@@ -26,7 +26,7 @@
 	"workbench.colorTheme": "Tokyo Night",
 	"workbench.productIconTheme": "fluent-icons",
 
-	// custom styles to modify vscode UI
+	// custom styles to modify VS Code UI
 	"vscode_custom_css.imports": [
 		"file:///C:/Users/pvict/vscode/style.css",
 		"file:///C:/Users/pvict/vscode/script.js"
